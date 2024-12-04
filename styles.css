@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(232, 235, 213);
+}
+
+h1 {
+  color: green;
+  font-size: 40px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+h3 {
+  color: darkred;
+}
+
+p {
+  color: rgb(15, 83, 114);
+  font-size: 17px;
+  text-align: justify;
+}
+
+.Alimentación {
+  color: rgb(138, 80, 161);
+  font-size: 16px;
+}
+
+.Tipos {
+  color: rgb(184, 37, 157);
+  font-size: 16px;
+}
+
+/* Se aplica Herencia en h2 */
+h2 {
+  color: brown;
+  font-size: 26px;
+}
+
+#h2-id {
+  color: rgb(182, 13, 182);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+#Alimento-id-h2 {
+  color: initial;
+}
+
+/* Se aplica Herencia en lista */
+
+.list {
+  background-color: lightblue;
+}
+
+#list-id {
+  background-color: lavender;
+}
+
+/* Encabezado adhesivo */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 1px 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
